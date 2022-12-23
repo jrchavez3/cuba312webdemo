@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "din-condensed";
+    src: url("fonts/DIN-Regular.ttf")
+  }
+  @font-face {
+    font-family: "din-bold";
+    src: url("fonts/DIN-Bold.ttf")
+  }
+
+.mainnav {
+    display: block;
+    width:100%;
+    text-align: center;
+}
+
+.optionwrapper {
+    display:inline-block;
+    text-align: center;
+}  
+
+.navoption {
+    font-family: din-bold;
+    font-size:20px;
+    padding: 0.75em 1em;
+}
